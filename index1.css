@@ -170,7 +170,7 @@ input[type="submit"]:hover {
 .password-container {
     position: relative;
     display: inline-block;
-    width: 310px; /* Set a fixed width for the container */
+    width: 100%; 
 }
 
 #phone{
