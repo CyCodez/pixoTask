@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+.sidebar {
+  margin: 0;
+  padding-top: 40px;
+  width: 250px;
+  text-align: center;
+  background-color: #fff4e6;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar-name{
+    font-size: 19px;
+    font-weight: 700;
+}
+.log-out{
+font-size: 18px;
+}
+.btn-logout{
+  background-color: #e03131;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+  border-radius: 10px;
+  padding:3px 9px;
+  border:1px solid transparent
+}
+.logout-btn{
+    width: 20px;
+    margin-top: 10px;
+}
+
+.btn{
+  margin-left: 55px;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 26px;
+  text-decoration: none;
+}
+ 
+
+
+div.content {
+  margin-left: 270px;
+  padding: 1px 16px;
+  padding-top: 38px;
+  height: 1000px;
+}
+.content h1{
+    margin-bottom: 40px;
+}
+.flex-container{
+  display:flex;
+  flex:1;
+  gap: 15px;
+  margin-bottom: 100px;
+  /* justify-content:center ; */
+}
+
+.flex-container > div{
+  border: 1px solid black;
+  width:500px;
+  padding: 5px 15px;
+  text-align: start;
+}
+.amount{
+  font-size: 25px;
+  font-weight: bold;
+}
+.title{
+  margin-top: 18px;
+}
+
+.chart-container {
+    position: relative;
+    max-width: 100vw;
+    height: auto;
+}
+
+
+ .table-responsive {
+    overflow-x: auto;
+margin-top: 50px;
+}
+
+.table-responsive h2{
+  text-align: center;
+ font-size: 25px;
+  font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+
+th {
+    background-color: #e03131;
+    color:white
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}@media only screen and (max-width: 600px) {
+.flex-container{
+  flex-direction: column;
+}
+.flex-container > div{
+  width:100%
+}
+  .chart-container {
+    width: 100%;
+  }
+}

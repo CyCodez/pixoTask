@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <title>Full Width Sidebar Page</title>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+   <div class="sidebar">
+  <a href="#news" class="sidebar-name">Jahkamso</a>
+  <a href="#contact">Home</a>
+  <a href="index1.html" class="btn"><button class="btn-logout"><span class="log-out">Logout</span> <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="logout-btn">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" /></svg></span></button></a>
+</div>
+
+<div class="content">
+  <h1>Overview</h1>
+<div class="flex-container">
+<div>
+<p class="title">Total sales</p>
+<p class="amount">$200</p>
+</div>
+<div>
+<p class="title">New signups</p>
+<p class="amount">$10</p>
+</div>
+<div>
+<p class="title">Total members</p>
+<p class="amount">$120</p>
+</div>
+</div>
+
+
+  <div class="chart-container">
+        <canvas id="signUpsChart"></canvas>
+    </div>
+    <script src="index2.js"></script>
+  <div class="table-responsive">
+      <h2>New Signup</h2>
+        <table id="signUpsTable">
+            <thead>
+                <tr>
+                    <th>Business Name</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Signed Up</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+  
+
+    <script src="index2.js"></script>
+
+</body>
+</html>

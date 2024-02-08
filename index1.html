@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Sign In Form with validation Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./index1.css">
+<script src="index1.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="login-form-wrap">
+  <h2>Sigin In</h2>
+  <form id="login-form">
+    <p>
+    <input type="text" id="phone" name="phone" placeholder="Phone number" required><i class="validation"><span></span><span></span></i>
+    </p>
+    <div class="password-container">
+        <input type="password" id="passwordField" placeholder="Password">
+        <span id="togglePassword" class="toggle-password">Show</span>
+    </div>
+
+    <p>
+    <input type="submit" id="login" value="Login" >
+
+    </p>
+  </form>
+
+</div>
+</body>
+</html>
